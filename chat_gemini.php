@@ -15,7 +15,7 @@ if (empty($mensajeUsuario)) {
     exit;
 }
 
-$apiKey = 'API KEY AQUI'; 
+$apiKey = 'AQ.Ab8RN6LxGNhYAZ-6hkG4ZvMupUMtpBOfWorXppsWR0DKM56YXA'; 
 $url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=' . $apiKey;
 
 // Instrucción directa y robusta con los datos incrustados en el perfil

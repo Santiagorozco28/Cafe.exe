@@ -2,7 +2,7 @@
 // api_nessie.php
 
 function callNessieAPI($metodo, $endpoint, $datos = null) {
-    $apiKey = "API KEY AQUI"; 
+    $apiKey = "dcf66cc4218f5673819c32313c487141"; 
     $baseUrl = "https://api.nessieisreal.com";
     
     // Construir la URL completa
