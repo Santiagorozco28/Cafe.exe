@@ -9,8 +9,7 @@ function callNessieAPI($metodo, $endpoint, $datos = null) {
     $url = $baseUrl . $endpoint . "?key=" . $apiKey;
 
     // Inicializar cURL
-    $ch = curl_init();
-
+    $ch = curl_init(); 
     // Configuración básica
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
